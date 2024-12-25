@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎥 Movie Recommendation Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>🎬 Movie Recommendation Hub</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search for movies by title, genre, or year..." />
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <!-- Featured Movies Section -->
+    <section id="default-movies">
+        <h2>🔥 Popular Movies</h2>
+        <div id="movie-container" class="grid-container"></div>
+    </section>
+    
+    <section id="search-results">
+        <h2>🔍 Search Results</h2>
+        <p id="no-results" class="hidden">⚠️ No movies found. Try another search term.</p>
+        <div id="search-container" class="grid-container"></div>
+    </section>
+    
+    <section id="watchlist">
+        <h2>📋 Your Watchlist</h2>
+        <div id="watchlist-container" class="grid-container"></div>
+    </section>
+    
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>Movie Recommendation Hub © 2024</p>
+    </footer>
+</body>
+</html>
